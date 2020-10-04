@@ -203,7 +203,7 @@ Function InstallTitusProgs {
 
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
-	choco install adobereader -y
+	#choco install adobereader -y
 }
 
 Function InstallJava {
@@ -218,12 +218,12 @@ Function Install7Zip {
 
 Function InstallNotepadplusplus {
 	Write-Output "Installing Notepad++"
-	choco install notepadplusplus -y
+	#choco install notepadplusplus -y
 }
 
 Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
-	choco install mpc-hc -y
+	#choco install mpc-hc -y
 }
 
 ##########
